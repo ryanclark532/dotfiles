@@ -29,7 +29,8 @@ set idearefactormode=keep
 """ Mappings --------------------------------
 map <leader>sf <Action>(GotoFile)
 map <leader>ff <Action>(FindInPath)
-map <leader>v <Action<(MoveTabRight)
+map <leader>v <Action>(MoveTabRight)
+map <leader>n <Action>(NextSplitter)
 
 map <leader>d <Action>(Debug)
 map <leader>r <Action>(Run)
@@ -42,4 +43,6 @@ map <S-Space> <Action>(GotoNextError)
 
 map <leader>b <Action>(ToggleLineBreakpoint)
 map <leader>o <Action>(FileStructurePopup)
+
+
 
